@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="title">
+                    <h3>Login and security</h3>
+                    <p>Add or remove email addresses on your account.</p>
+                </div>
+            </header>
+                <strong>Email addresses</strong>
+                <div class="emails">
+                    <form action=""></form>
+                    <div class="item">
+                        <p>johnjohnson@email.com</p>
+                        <span>PRIMARY</span>
+                    </div>
+                    <div class="item">
+                        <p>johnsoncompany@email.com</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="add">
+                    <button class="btn"><i class="fa-solid fa-plus active"></i><span>Add email address</span></button>
+                    <form action="javascript:void(0)">
+                        <input type="email" id="email_field" placeholder="Add email adress">
+                        <span id="email_error">error msg</span>
+                        <i class="fa-solid fa-check"></i>
+                    </form>
+                </div>
+        </div>
+        <div class="card">
+            <header>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div class="title">
+                    <h3>Phone numbers</h3>
+                    <p>Add or remove phone number in case you have trouble signing in.</p>
+                </div>
+            </header>
+            <div class="phones">
+                <div class="bg"></div>
+                <div class="bg bg2"></div>
+                <div class="bg bg3"></div>
+                <strong>You haven't added any phone numbers yet.</strong>
+                <p>Your phone number helps us keep your account secure. It also helps people who already have your number discover and connect with you.</p>
+            </div>
+            <div class="add">
+                <button class="btn"><i class="fa-solid fa-plus"></i>Add email address</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
